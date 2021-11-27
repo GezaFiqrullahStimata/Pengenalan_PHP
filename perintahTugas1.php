@@ -7,7 +7,8 @@
     <title>Belajar PHP</title>
 </head>
 <body>
-    
-        <?php echo "<h1>Selamat Datang Masukkan Nama Lengkap Anda</h1>"?>
+<h1>
+    Selamat datang <?php echo "masukkan nama anda"?>
+</h1>
 </body>
 </html>
