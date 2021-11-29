@@ -9,10 +9,22 @@
 <body>
     <h2>Membuat Perulangan Tabel</h2>
     <table border="1" cellpaadding = "10" cellspacing ="1">
-        <?php
+     <!-- #TASK 6 -->
+        <!-- <?php
             for($u = 1;$u <= 3;$u++){
                 echo "<tr>";
                 for($i = 1; $i <= 5; $i++){
+                    echo "<td> $u , $i </td>";
+                }
+                echo "</tr>";
+            } 
+        ?> -->
+        
+    <!-- #TASK 5 -->
+        <?php
+            for($u = 1;$u <= 8;$u++){
+                echo "<tr>";
+                for($i = 1; $i <= 10; $i++){
                     echo "<td> $u , $i </td>";
                 }
                 echo "</tr>";
