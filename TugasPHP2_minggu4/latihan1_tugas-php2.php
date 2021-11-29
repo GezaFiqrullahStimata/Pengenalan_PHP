@@ -27,23 +27,23 @@
 // }
 
 // <!-- #TASK 5 -->
-$e = 10;
-do{
-    $e++;
-    echo "Hai,Dunia </br>";
-}
-while($e < 5);
+// $e = 10;
+// do{
+//     $e++;
+//     echo "Hai,Dunia </br>";
+// }
+// while($e < 5);
 //Jawaban : Karena kondisi didalam while bernilai false (yakni 10 kurang dari 5)
 // sehingga perintah didalam do , tetap dilakukan minimal sekali
 
 //Tetapi jika kondisinya bernilai true,maka perintah looping bisa dijalankan
 //sesuai inisialisasi nilai awal nya (yakni 0 kurang dari 5)
 //Contohnya seperti berikut :
-$f = 0;
-do{
-    $f++;
-    echo "Hai,Dunia";
-}
-while($f < 5)
+// $f = 0;
+// do{
+//     $f++;
+//     echo "Hai,Dunia";
+// }
+// while($f < 5)
 
 ?>
