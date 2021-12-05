@@ -19,12 +19,12 @@
                 echo "</tr>";
             } 
         ?> -->
-        
-    <!-- #TASK 5 -->
+
+    <!-- #TASK 7 -->
         <?php
-            for($u = 1;$u <= 8;$u++){
+            for($u = 1;$u <= 10;$u++){
                 echo "<tr>";
-                for($i = 1; $i <= 10; $i++){
+                for($i = 1; $i <= 8; $i++){
                     echo "<td> $u , $i </td>";
                 }
                 echo "</tr>";
